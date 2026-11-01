@@ -1,0 +1,7 @@
+name = "liga-tyubikov-automation"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[triggers]
+# Каждый день в 08:00 Екатеринбург (UTC+5). SQL фиксирует недели только по понедельникам.
+crons = ["0 3 * * *"]
